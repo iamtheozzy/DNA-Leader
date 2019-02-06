@@ -7,13 +7,15 @@ const Section = styled.div`
     background-color: #212121;
     width: 100%;
     padding: 18rem 0;
+    display: flex;
     justify-content: center;
-    align-content:flex-start;
+    
 `;
 
 const WebTitle = styled.h1`
     color: white;
-    margin-top: 0px;
+    margin-left: 2rem;
+
 `;
 
 const SectionOne = () => (
