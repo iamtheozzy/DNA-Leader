@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled"
 
 
-const Section = styled.div`
+const Container = styled.div`
     display: flex;
     background-color: #212121;
     width: 100%;
@@ -19,9 +19,9 @@ const WebTitle = styled.h1`
 `;
 
 const SectionOne = () => (
-    <Section>
+    <Container>
         <WebTitle>DNA of a Leader</WebTitle>
-    </Section>
+    </Container>
 )
 
 export default SectionOne;

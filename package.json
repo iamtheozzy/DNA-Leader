@@ -8,6 +8,7 @@
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "gatsby": "^2.0.111",
+    "gatsby-cli": "^2.4.9",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-emotion": "^4.0.3",
     "gatsby-plugin-manifest": "^2.0.17",

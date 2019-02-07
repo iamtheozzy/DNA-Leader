@@ -2,18 +2,21 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SectionOne from "../components/landing_page/section-one";
+import Section1 from "../components/landing_page/section-one";
 import Section2 from "../components/landing_page/section-two";
+import Section3 from "../components/landing_page/section-three";
 
 
 const IndexPage = () => (
   <Layout>
-    <SectionOne>
+    <Section1>
       <h1>DNA of a Leader Set up</h1>
-    </SectionOne>
+    </Section1>
     <Section2>
-      Why DNA?
+     
     </Section2>
+    <Section3>
+    </Section3>
   </Layout>
 )
 
