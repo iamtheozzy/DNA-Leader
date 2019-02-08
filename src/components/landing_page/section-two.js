@@ -3,8 +3,6 @@ import styled from "@emotion/styled"
 
 const Lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida, lacus vel dictum pretium, sapien nulla rhoncus felis, eget sollicitudin ligula elit ut risus'
 
-const Text = 'becoming privatley healthy & publicly fruitful leaders'
-
 const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +12,6 @@ const Container = styled.div`
     background-color: #f2efe9;
     width: 100%;
     height: 650px;
-    
 `;
 
 const Left = styled.div`
@@ -78,7 +75,7 @@ const SubBtn = styled.button`
 
 
 
-const SectionTwo = props => (
+const SectionTwo = () => (
     <Container>
         <Left>
             <Question>WHY<LineBreak />DNA?</Question>
