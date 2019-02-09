@@ -8,12 +8,7 @@ const Container = styled.div`
     background-color: #212121;
     width: 100%;
     height: 700px;
- 
 `;
-
-const LineBreak = styled.br`
-    margin: 45px;
-`
 
 const WebTitle = styled.h1`
     color: white;

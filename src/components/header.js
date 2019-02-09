@@ -2,34 +2,51 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+import Toolbar from './Toolbar/Toolbar';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
+
+const Headers = () => (
+  <header>
+    <div>
+      <h1>
+       
       </h1>
     </div>
   </header>
 )
+
+class Header extends React.Component {
+
+  state = {
+    sideDrawerOpen: false,
+  }
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    })
+  }
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen:false})
+  }
+
+  render() {
+    let backdrop;
+
+    if(this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler}/>
+    }
+    return (
+      <header style={{height: '100%'}}>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen}/>
+        {backdrop}
+      </header>
+    );
+  }
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
