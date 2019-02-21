@@ -1,7 +1,7 @@
 import React from "react";
 import styled from '@emotion/styled';
 
-import Example from '../carousel/carousel'
+import Card from '../card/card';
 
 const Container = styled.div`
     display: flex;
@@ -10,7 +10,7 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
-    background-color: #c4ab9f;
+    background-color: #f2efe9;
     width: 100%;
     height: 650px;
 
@@ -24,6 +24,17 @@ const Container = styled.div`
 
 export default () => (
   <Container>
-      <Example></Example>
+    <Card
+      title="PASTORS"
+      image="https://picsum.photos/200/300"
+     />
+    <Card
+      title="LEADERS"
+      image="https://picsum.photos/200/300"
+     />
+    <Card
+      title="ORGANIZATIONS"
+      image="https://picsum.photos/200/300"
+     />
   </Container>
 )

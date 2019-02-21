@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled"
+import logo from "../../images/DNA Logo_White-01.png"
 
 
 const Container = styled.div`
@@ -10,19 +11,21 @@ const Container = styled.div`
     height: 700px;
 `;
 
-const WebTitle = styled.h1`
-    color: white;
-    margin-left: 2rem;
-    text-align: center;
-     
-    span {
-        font-size: 5rem;
-    }
+const ImgWrapper = styled.div`
+    margin-top: 1rem;
+    width: 15%;
+`;
+
+const Logo = styled.img`
+    width: 100%;
 `;
 
 const SectionOne = () => (
-    <Container>
-        <WebTitle><span>DNA</span><br />OF A Leader</WebTitle>
+    <Container> 
+        <ImgWrapper>
+            <Logo src={logo}/>
+        </ImgWrapper>
+      
     </Container>
 )
 

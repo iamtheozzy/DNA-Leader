@@ -7,6 +7,7 @@ import Section2 from "../components/landing_page/section-two";
 import Section3 from "../components/landing_page/section-three";
 import Section4 from "../components/landing_page/section-four";
 import Section5 from "../components/landing_page/section-five";
+import Section6 from "../components/landing_page/section-six";
 
 
 const IndexPage = () => (
@@ -23,6 +24,8 @@ const IndexPage = () => (
     </Section4>
     <Section5>
     </Section5>
+    <Section6>
+    </Section6>
   </Layout>
 )
 

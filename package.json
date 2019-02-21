@@ -5,8 +5,13 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@bit/reactstrap.reactstrap.carousel": "^7.1.0",
+    "@bit/reactstrap.reactstrap.internal.carousel-caption": "^7.1.0",
+    "@bit/reactstrap.reactstrap.internal.carousel-control": "^7.1.0",
+    "@bit/reactstrap.reactstrap.internal.carousel-indicators": "^7.1.0",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.0.111",
     "gatsby-cli": "^2.4.9",
     "gatsby-image": "^2.0.29",
@@ -20,7 +25,9 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-transition-group": "^2.5.3",
+    "reactstrap": "^7.1.0"
   },
   "keywords": [
     "gatsby"

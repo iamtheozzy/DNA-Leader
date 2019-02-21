@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled"
 
-const Lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida, lacus vel dictum pretium, sapien nulla rhoncus felis, eget sollicitudin ligula elit ut risus'
+const Lorem = 'DNA of a Leader is an in depth training system on Biblical Leadership built on the premise that developing privately healthy disciples is at the root of strong public leadership'
 
 
 const Container = styled.div`
@@ -55,16 +55,20 @@ const Right = styled.div`
     width: 45%;
     min-width: 640px;
     max-width: 650px;
-    height: 250px;
+    height: 300px;
 `;
 
 const Slogan = styled.h1`
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #c4ab9f;
     font-size: 4em;
     max-width: 355px;
 `;
 
 const SubBtn = styled.button`
+    font-family: neue-haas-unica, sans-serif;
     font-size: 2.5em;
     background: #9e7a20;
     color: #f2efe9;

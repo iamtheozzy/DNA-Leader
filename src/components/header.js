@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -6,15 +6,7 @@ import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
 
-const Headers = () => (
-  <header>
-    <div>
-      <h1>
-       
-      </h1>
-    </div>
-  </header>
-)
+
 
 class Header extends React.Component {
 

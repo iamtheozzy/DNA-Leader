@@ -1,6 +1,11 @@
 .toolbar {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   width: 100%;
-  position: fixed;
+  position: absolute;
+  top: 30px;
+  left: 0px;
   padding: .5rem 0;
 }
 
@@ -11,16 +16,32 @@
   padding: 0 1rem;
 }
 
-.toolbar_logo {
+.toolbar_login {
   display: flex;
   align-items: center;
   margin-left: .5rem;
+  flex-shrink: 2;
+}
+
+.toolbar_login a {
+  color:#9e7a20;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.toolbar_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  border: 2px solid #f2efe9;
+  padding: .5rem 1rem;
+  flex-shrink: 2;
 }
 
 .toolbar_logo a {
-  color:white;
+  color:#f2efe9;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .spacer {
@@ -40,14 +61,14 @@
 }
 
 .toolbar_navigation-items a {
-  color: white;
+  color: #f2efe9;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: purple;
+  color: #f2efe9;
 }
 
 
@@ -55,6 +76,16 @@
   .toolbar_navigation-items {
     display: none;
   }
+
+  .toolbar_login a,
+  .toolbar_logo a {
+    font-size: .5rem;
+  }
+
+  .toolbar_logo {
+    padding: .25rem .5rem;
+  }
+
 }
 
 @media (min-width: 769px) {
@@ -62,6 +93,6 @@
     display:none;
   }
   .toolbar_logo {
-    margin-left: 0;
+    margin-left: 1.5rem;
   }
 }
