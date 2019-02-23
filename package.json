@@ -5,10 +5,6 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@bit/reactstrap.reactstrap.carousel": "^7.1.0",
-    "@bit/reactstrap.reactstrap.internal.carousel-caption": "^7.1.0",
-    "@bit/reactstrap.reactstrap.internal.carousel-control": "^7.1.0",
-    "@bit/reactstrap.reactstrap.internal.carousel-indicators": "^7.1.0",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "bootstrap": "^4.3.1",
