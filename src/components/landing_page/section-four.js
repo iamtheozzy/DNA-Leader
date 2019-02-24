@@ -7,7 +7,7 @@ const Container = styled.div`
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-around;
     background-color: #f2efe9;
     width: 100%;

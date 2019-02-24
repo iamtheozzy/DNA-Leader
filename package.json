@@ -22,8 +22,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
-    "react-transition-group": "^2.5.3",
-    "reactstrap": "^7.1.0"
+    "react-transition-group": "^2.5.3"
   },
   "keywords": [
     "gatsby"

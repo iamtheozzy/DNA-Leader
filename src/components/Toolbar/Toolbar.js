@@ -9,16 +9,16 @@ const toolbar = props => (
     <nav className= "toolbar_navigation">
       
       <div className="toolbar_login"><a href="/">LOGIN</a></div>
-      <div className="toolbar_logo"><a href="/">SUBSCRIBE</a></div>
+      <div className="toolbar_logo"><Link to="/subscription">SUBSCRIBE</Link></div>
       <div className= "spacer"></div>
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler}/>
       </div>
       <div className="toolbar_navigation-items">
         <ul>
-          <li><a href="/">Sbscription</a></li>
-          <li><Link>Another Thing</Link></li>
-          <li><a href="/">Users</a></li>
+          <li><Link to="/about/instructor">Meet the Instructor</Link></li>
+          <li><Link to="/about/DNAJourney">DNA Journey</Link></li>
+          <li><Link to="/about/pastors">Pastors</Link></li>
           
         </ul>
       </div>
