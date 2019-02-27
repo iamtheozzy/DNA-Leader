@@ -61,7 +61,7 @@ const LoremDiv = styled.div`
     width: 80%;
     max-height: 26em;
     min-width: 370px;;
-    font-size: 2.5em;
+    font-size: 2em;
     letter-spacing: 2px;
     margin-left: 1em;
     border-left: 2px solid #212121;
