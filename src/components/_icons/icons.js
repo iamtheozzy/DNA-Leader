@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 15%;
+  min-width: 200px;
 
   ${'' /* border: 2px dashed green; */}
 
@@ -28,6 +29,10 @@ const Wrapper = styled.div`
 const Title = styled.h1`
   font-size: 5rem;
   font-weight: 400;
+  color: #f2efe9;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 `;
 
 const Text = styled.p`

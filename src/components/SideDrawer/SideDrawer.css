@@ -1,6 +1,6 @@
 .side-drawer {
   height: 100%;
-  background: #9e7a20;
+  background: #1c2f42;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position:fixed;
   top: 0;
@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .side-drawer li {
@@ -29,7 +30,7 @@
 }
 
 .side-drawer a {
-  color: purple;
+  color: #f2efe9;
   text-decoration: none;
   font-size: 2rem;
 }

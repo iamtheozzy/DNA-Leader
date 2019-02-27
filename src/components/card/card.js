@@ -23,7 +23,7 @@ const Title = styled.h2`
   letter-spacing: 4px;
   font-size: 4em;
   color: #f2efe9;
-
+  letter-spacing: 5px;
   @media (max-width: 375px) {
         font-size: 2.5em;
     }
@@ -38,6 +38,10 @@ const Avatar = styled.img`
   height: 200px;
   margin: 0;
   border-radius: 80%;
+  @media (max-width: 375px) {
+        width: 150px;
+        height: 150px;
+    }
 `
 
 const Btn = styled.button`

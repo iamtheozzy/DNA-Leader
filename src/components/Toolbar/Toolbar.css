@@ -36,6 +36,8 @@
   border: 2px solid #f2efe9;
   padding: .5rem 1rem;
   flex-shrink: 2;
+  
+  
 }
 
 .toolbar_logo a {
@@ -83,7 +85,8 @@
   }
 
   .toolbar_logo {
-    padding: .25rem .5rem;
+    padding: .25rem .30rem;
+    margin-left: .75rem;
   }
 
 }

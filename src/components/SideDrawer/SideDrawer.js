@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby'
 
 import './SideDrawer.css';
 
@@ -11,8 +12,10 @@ const sideDrawer = props => {
   return (
   <nav className={drawerClasses.join(' ')}>
     <ul>
-      <li><a href="/">Products</a></li>
-      <li><a href="/">Users</a></li>
+    <li><Link to="/about/instructor">Meet the Instructor</Link></li>
+    <li><Link to="/about/dnajourney">DNA Journey</Link></li>
+    <li><Link to="/about/pastors">Pastors</Link></li>
+    <li><a href="https://www.dnaofaleader.com/#registration-section">Conference</a></li>
     </ul>
   </nav>
   );
