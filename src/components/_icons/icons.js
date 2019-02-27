@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 15%;
+
   ${'' /* border: 2px dashed green; */}
 
   ${'' /* @media (max-width: 375px) {
@@ -15,7 +16,7 @@ const Wrapper = styled.div`
   } */}
 `;
 
-// USE INCASE WE SWITHC TO IMAGES OR ICONS
+// USE INCASE WE SWITCH TO IMAGES OR ICONS
 // const Image = styled.img`
 //   flex-grow: 0;
 //   flex-shrink: 0;
@@ -31,7 +32,7 @@ const Title = styled.h1`
 
 const Text = styled.p`
   font-size: 2em;
-  color: #212121;
+  color: #f2efe9;
   text-align: center;
   margin: 2rem 0;
   width: 70%;

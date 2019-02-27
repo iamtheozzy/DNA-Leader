@@ -10,7 +10,7 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: space-around;
-    background-color: #f2efe9;
+    background-color: #7a5c5e;
     width: 100%;
     height: 650px;
 

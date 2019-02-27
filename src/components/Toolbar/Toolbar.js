@@ -17,8 +17,9 @@ const toolbar = props => (
       <div className="toolbar_navigation-items">
         <ul>
           <li><Link to="/about/instructor">Meet the Instructor</Link></li>
-          <li><Link to="/about/DNAJourney">DNA Journey</Link></li>
+          <li><Link to="/about/dnajourney">DNA Journey</Link></li>
           <li><Link to="/about/pastors">Pastors</Link></li>
+          <li><a href="https://www.dnaofaleader.com/#registration-section">Conference</a></li>
           
         </ul>
       </div>

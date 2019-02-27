@@ -22,7 +22,7 @@ const Title = styled.h2`
   font-weight: normal;
   letter-spacing: 4px;
   font-size: 4em;
-  color: #212121;
+  color: #f2efe9;
 
   @media (max-width: 375px) {
         font-size: 2.5em;
@@ -43,9 +43,9 @@ const Avatar = styled.img`
 const Btn = styled.button`
   background-color: transparent;
   font-size: 1.5em;
-  color: #212121;
+  color: #f2efe9;
   padding: .25em 2.5em;
-  border: 2px solid #212121;
+  border: 2px solid #f2efe9;
   text-align: center;
 `;
 
