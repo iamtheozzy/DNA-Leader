@@ -14,6 +14,10 @@ const Container = styled.div`
     width: 100%;
     height: 650px;
 
+    @media (max-width: 769px) {
+        height: 1000px;
+    }
+
     @media (max-width: 375px) {
         height: 2000px;
     }
@@ -24,7 +28,12 @@ const IconWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+
+    @media (max-width: 769px) {
+        ${'' /* margin-bottom: 5rem; */}
+    }
 `;
+
 
 const SectionWrapper = styled.div`
     display: flex;
@@ -49,6 +58,10 @@ const SectionSubTitle = styled.h3`
     font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     color: #c8b79b;
+
+    @media (max-width: 769px) {
+        font-size: 1rem;
+    }
 
     @media (max-width: 375px) {
         font-size: 16px;

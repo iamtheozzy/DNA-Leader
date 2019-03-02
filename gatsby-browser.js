@@ -6,3 +6,6 @@
 
 // You can delete this file if you're not using it
 import 'bootstrap/dist/css/bootstrap.css';
+
+// Loads global fonts 
+import './src/support_styles/styles.css'

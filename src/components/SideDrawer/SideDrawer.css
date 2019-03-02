@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   width: 70%;
-  max-width: 400px;
+  /* max-width: 400px; */
   z-index: 200;
   transform: translateX(100%);
   transition: transform 0.3s ease-out;
@@ -41,8 +41,20 @@
 }
 
 
-@media (min-width: 796px) {
+@media (min-width: 2000px) {
   .side-drawer {
     display:none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .side-drawer {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .side-drawer {
+    width: 40%;
   }
 }

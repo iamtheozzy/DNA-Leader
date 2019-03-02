@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled"
 import { Link } from "gatsby"
 
-const lowerCase = 'DNA of a Leader is an in depth training system on Biblical Leadership built on the premise that developing privately healthy disciples is at the root of strong public leadership'
+// const lowerCase = 'DNA of a Leader is an in depth training system on Biblical Leadership built on the premise that developing privately healthy disciples is at the root of strong public leadership'
 
 const Lorem = 'DNA OF A LEADER IS AN IN DEPTH TRAINING SYSTEM ON BIBLICAL LEADERSHIP BUILT ON THE PREMISE THAT DEVELOPING PRIVATELY HEALTHY DISCIPLES IS AT THE ROOT OF STRONG PUBLIC LEADERSHIP'
 
