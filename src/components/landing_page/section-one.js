@@ -15,7 +15,6 @@ const Container = styled.div`
 const ImgWrapper = styled.div`
     margin-top: 1rem;
     width: 15%;
-    z-index: 1000;
 `;
 
 const Logo = styled.img`
@@ -25,7 +24,7 @@ const Logo = styled.img`
 const HeroImg = styled.img`
     width: 100%;
     height: 100%;
-
+    
 `;
 
 const SectionOne = () => (
@@ -33,7 +32,9 @@ const SectionOne = () => (
         <ImgWrapper>
             <Logo src={logo}/>
         </ImgWrapper>
-        <HeroImg src={heroImg} />
+        <HeroImg src={heroImg}>
+            
+        </HeroImg>
       
     </Container>
 )

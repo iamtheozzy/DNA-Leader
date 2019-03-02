@@ -54,7 +54,7 @@ const List_item = styled.li`
   margin-bottom: 4px;
 `;
 
-const SubButton = styled.button`
+const SubButton = styled.a`
   background-color: transparent;
   font-size: 1.5em;
   color: #212121;
@@ -88,7 +88,7 @@ const Subscription = ( props ) => {
       <Card_Body>
         {props.type === "individual" ? IndividualListItem : ""} 
         {props.type === "church" ? ChurchListItems_List_Item : ""} 
-        <SubButton>PURCHASE</SubButton>
+        <SubButton href="https://dnaofaleader.thoughtindustries.com/catalog">PURCHASE</SubButton>
       </Card_Body>
     </Card>
   )
