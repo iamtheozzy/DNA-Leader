@@ -1,14 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
+import styled from "@emotion/styled"
+import ReactPlayer from 'react-player'
 
 import Layout from "../../components/layout"
+import Instruct from "../../components/instructor/instructor"
 
 
-const Instructor = () => (
+
+const InstructorPage = () => (
   <Layout>
-    <h1>Hello! This is the Meet the instructor page</h1>
-    <Link to="/">Go back to the homepage</Link>
+    <Instruct />
+    
   </Layout>
 )
 
-export default Instructor
+export default InstructorPage

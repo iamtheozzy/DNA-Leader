@@ -21,6 +21,7 @@ const toolbar = props => (
           <li><Link to="/about/pastors">Pastors</Link></li>
           <li><a href="https://www.dnaofaleader.com/#registration-section">Conference</a></li>
           
+          
         </ul>
       </div>
     </nav>

@@ -76,7 +76,7 @@
 /* set for largest display possible */
 @media (max-width : 2284px) {
   .toolbar_navigation-items {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -88,7 +88,8 @@
 }
 
 
-@media (max-width : 768px) {
+
+@media (max-width : 1025px) {
   .toolbar_navigation-items {
     display: none;
   }
@@ -105,10 +106,10 @@
 
 }
 
-@media (min-width: 769px) {
-  /* .toolbar__toggle-button {
+@media (min-width: 1025px) {
+  .toolbar__toggle-button {
     display:none;
-  } */
+  }
   .toolbar_logo {
     margin-left: 1.5rem;
   }
