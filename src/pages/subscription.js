@@ -18,7 +18,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: #212121;
@@ -38,6 +38,14 @@ const Logo = styled.img`
     margin-top: 1rem;
 `;
 
+const PageTitle = styled.h1`
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 6rem;
+  color: #f2efe9;
+  font-size: 2rem;
+`;
 
 
 
@@ -49,15 +57,16 @@ const SubscriptionPage = () => (
             <Logo src={logo}/>
         </ImgWrapper>
       </Link>
-      
+      <PageTitle>SUBSCRIPTIONS</PageTitle>
       <Wrapper>
         {/* Insert Cards Here */}
+        
         <SubCard
-          title="Individual"
+          title="INDIVIDUAL"
           type="individual"
         />
         <SubCard
-          title="Church"
+          title="CHURCH"
           type="church"
         />   
       </Wrapper>

@@ -10,10 +10,12 @@ const Card = styled.div`
   width: 20%;
   min-width: 400px;
   min-height: 650px;
-  background-color: #f2efe9;
+  background-color: transparent;
+  margin: 0 3rem;
 `;
 
 const Card_Header = styled.div`
+  border: 1px solid #f2efe9;
   border-radius: 2px;
   display: flex;
   justify-content: center;
@@ -23,46 +25,41 @@ const Card_Header = styled.div`
 
   h1 {
     font-size: 2rem;
-    color: #212121;
+    font-weight: 400;
+    color: #f2efe9;
     letter-spacing: 4px;
   }
 `;
 
-const StyledHr = styled.hr`
-  border-top: 1px solid #212121;
-  margin: 0 30px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  opacity: .5;
-`;
 
 const Card_Body = styled.ul`
   border-radius: 2px;
+  border: 1px solid #f2efe9;
+  padding: 0 4rem;
   height: 85%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-startd;
   align-content:center;
+  color: #f2efe9;
 `;
 
 const List_item = styled.li`
-  list-style-type: none;
   font-size: 1rem;
-  text-align: center;
-  padding: 10px 10px;
-  margin-bottom: 4px;
+  text-align: left;
+  letter-spaceing: 2px;
 `;
 
 const SubButton = styled.a`
   background-color: transparent;
   font-size: 1.5em;
-  color: #212121;
+  color: #f2efe9;
   padding: .5em 2.5em;
-  margin-top: 10px;
-  border: 2px solid #212121;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f2efe9;
   text-align: center;
+  margin: 2rem auto 0 auto;
 `
 
 const individual_items = [ "Unlimited access to the DNA of a Leader Training Classes", "Stewardship Map Online: Weekly Spiritual Planning Tool", "Personal Leadership Diagnostic", "Customized Growth Focus", "Mission Statement Builder", "Leadership Insight Videos from world leaders", "Public Leadership Diagnostic tools and More!" ]
@@ -84,8 +81,8 @@ const Subscription = ( props ) => {
       <Card_Header>
         <h1>{props.title}</h1>
       </Card_Header>
-      <StyledHr />
       <Card_Body>
+
         {props.type === "individual" ? IndividualListItem : ""} 
         {props.type === "church" ? ChurchListItems_List_Item : ""} 
         <SubButton href="https://dnaofaleader.thoughtindustries.com/catalog">PURCHASE</SubButton>
