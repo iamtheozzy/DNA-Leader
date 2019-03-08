@@ -8,7 +8,7 @@ import icon_03 from "../../images/Journey_icons/icon_03.png"
 import icon_04 from "../../images/Journey_icons/icon_04.png"
 
 import diagnostic from "../../images/Journey_photos/dnaDiagnostic.jpeg"
-import stewardship from "../../images/Journey_photos/dnastewardship.jpeg"
+import stewardship from "../../images/Journey_photos/dnaStewardship.jpeg"
 import insight from "../../images/Journey_photos/insight_videos.jpeg"
 import mission from "../../images/Journey_photos/mission_statement.jpeg"
 import resource from "../../images/Journey_photos/resource_library.jpeg"
