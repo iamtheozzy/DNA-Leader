@@ -10,7 +10,9 @@ const Wrapper = styled.div`
   width: 15%;
   min-width: 200px;
 
-  ${'' /* border: 2px dashed green; */}
+  @media all and (max-width: 1199px) { 
+    width: 33%;
+  } 
 
   ${'' /* @media (max-width: 375px) {
         height: 30%;

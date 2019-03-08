@@ -1,0 +1,26 @@
+.horizontal_helix {
+  background-image: url("../../images/DNA_Helix_Homepage-01.png");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+}
+
+@media all and (max-width: 1199px) { 
+  .horizontal_helix {
+    background-image: url("../../images/DNA_Helix_Homepage-01.png");
+    height: 900px;
+    width: 700px;
+  }
+} 
+
+@media all and (max-width: 1199px) { 
+    .horizontal_helix {
+      background-image: url("../../images/DNA_Helix_vertical.png");
+      height: 900px;
+      width: 700px;
+    }
+ } 
+/* @media all and (max-width: 991px) { ... } 
+@media all and (max-width: 768px) { ... } 
+@media all and (max-width: 575px) { ... } */
+ 

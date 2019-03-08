@@ -12,6 +12,15 @@ const Wrapper = styled.div`
   ${'' /* Use border for responsiveness testing */}
   ${'' /* border: 2px dashed blue; */}
 
+  @media all and (max-width: 1199px) { 
+
+   }
+
+  @media all and (max-width: 991px) { 
+    width: 70%;
+    height: 30%;
+   } 
+
   @media (max-width: 375px) {
         height: 30%;
   }
@@ -24,6 +33,10 @@ const Title = styled.h2`
   font-size: 4em;
   color: #f2efe9;
   letter-spacing: 5px;
+
+  @media all and (max-width: 1199px) { 
+    font-size: 3em;
+  }
   @media (max-width: 375px) {
         font-size: 2.5em;
     }
@@ -38,6 +51,11 @@ const Avatar = styled.img`
   height: 200px;
   margin: 0;
   border-radius: 80%;
+
+  @media all and (max-width: 1199px) { 
+    width: 150px;
+    height: 150px;
+  }
   @media (max-width: 375px) {
         width: 150px;
         height: 150px;

@@ -14,6 +14,15 @@ const Container = styled.div`
     width: 100%;
     height: 650px;
 
+    @media all and (max-width: 1199px) { 
+
+
+     } 
+
+    @media all and (max-width: 991px) { 
+      height: 1500px;
+    } 
+
     @media (max-width: 375px) {
         height: 1000px;
     }

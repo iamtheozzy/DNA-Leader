@@ -1,0 +1,40 @@
+.player_wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+ 
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+@media all and (max-width: 1199px) { 
+  .react_player {
+    transform: translateY(25%);
+  }
+}
+
+@media all and (max-width: 991px) { 
+  .react_player {
+    transform: translateY(35%);
+  }
+}
+
+@media all and (max-width: 768px) { 
+  .react_player {
+    transform: translateY(50%);
+  }
+}
+@media all and (max-width: 575px) { 
+  .react_player {
+    transform: translateY(70%);
+  }
+}
+
+@media all and (max-width: 375px) { 
+  .react_player {
+    transform: translateY(90%);
+  }
+}

@@ -1,6 +1,10 @@
 .side-drawer {
+  font-family: neue-haas-unica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 3px;
   height: 100%;
-  background: #1c2f42;
+  background: #212121;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position:fixed;
   top: 0;
@@ -22,7 +26,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0 3em;
 }
 
 .side-drawer li {
@@ -37,7 +42,7 @@
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: black;
+  color: #9e7a20;
 }
 
 

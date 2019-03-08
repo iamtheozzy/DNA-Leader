@@ -110,6 +110,7 @@ const ListItem = styled.li`
 
 const ListItemButton = styled.li`
   margin: 7rem auto 4rem auto;
+  list-style-type: none;
 `;
 
 const Button = styled.a`

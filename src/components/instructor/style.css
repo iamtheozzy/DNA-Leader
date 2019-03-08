@@ -36,3 +36,27 @@
     min-width: 250px;
   }
 }
+
+@media all and (max-width: 1199px) { 
+  .quote_image{
+    font-size: 2.5rem;
+  }
+ } 
+@media all and (max-width: 768px) { 
+  .quote_image{
+    font-size: 2rem;
+  }
+ } 
+
+ @media all and (max-width: 575px) { 
+    .quote_image{
+      font-size: 1.75rem;
+    }
+  }
+
+ @media all and (max-width: 400px) { 
+    .quote_image{
+      font-size: 1.5rem;
+      margin: 0 auto;
+    }
+  }

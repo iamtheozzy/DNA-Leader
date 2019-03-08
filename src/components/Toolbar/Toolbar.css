@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   margin-left: 1rem;
-  border: 2px solid #f2efe9;
+  border: 1px solid #f2efe9;
   padding: .5rem 1rem;
   flex-shrink: 2;
   
@@ -89,7 +89,7 @@
 
 
 
-@media (max-width : 1025px) {
+@media (max-width : 1199px) {
   .toolbar_navigation-items {
     display: none;
   }
@@ -106,7 +106,7 @@
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1199px) {
   .toolbar__toggle-button {
     display:none;
   }

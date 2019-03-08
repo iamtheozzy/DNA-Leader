@@ -42,11 +42,15 @@ const InstructorRight = styled.div`
     justify-content: center;
     width: 50%;
     min-width: 750px;
-    border-left: 2px solid #9e7a20;
+    border-left: 1px solid #9e7a20;
 
     @media (min-width: 1200px) and (max-width: 1550px) {
       min-width: 500px;
       ${'' /* background-color: red; */}
+    }
+    @media all and (max-width: 1199px) {
+      border: none;
+      margin-top: 3rem;
     }
     
 `;
